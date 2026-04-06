@@ -16,6 +16,6 @@ spec:
       - name: my-app
         # The CI script looks for the line starting with "image:" 
         # and replaces "placeholder" with your actual Docker tag.
-        image: dukuly99/my-app:placeholder
+        image: dukuly99/my-app:ee9c19abddb01d70b937ec73b8feaddb2d0799eb
         ports:
         - containerPort: 80
